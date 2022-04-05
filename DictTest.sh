@@ -3,6 +3,7 @@ declare -A sounds
 sounds[dog]="bark"
 sounds[cow]="moo"
 sounds[bird]="tweet"
+sounds[fox]="howl"
 
 echo "Dog sound" ${sounds[dog]}
 echo "All Animals sounds" ${sounds[@]}
